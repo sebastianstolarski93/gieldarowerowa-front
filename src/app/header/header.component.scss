@@ -1,0 +1,85 @@
+@import '../../styles.scss';
+
+header {
+    .top {
+        padding: 10px 0;
+        background-color: $gray;
+        border-top: 2px solid $blue;
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        nav {
+            width: 25%;
+            max-width: 200px;
+            display: flex;
+            justify-content: space-between;
+            a {
+                color: $darkBlue;
+                text-decoration: none;
+                transition: all .4s;
+                font-size: 14px;
+                &:hover {
+                    color: $blue;
+                }
+            }
+        }
+        .right-links {
+            width: 50%;
+            max-width: 300px;
+            display: flex;
+            justify-content: space-between;
+            div {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                &.social {
+                    width: 30%;
+                    i {
+                        display: inline-block;
+                    }
+                }
+                &.lang {
+                    width: 30%;
+                }
+            }
+            a {
+                color: $darkBlue;
+                text-decoration: none;
+                transition: all .4s;
+                font-size: 14px;
+                &:hover {
+                    color: $blue;
+                }
+            }
+        }
+    }
+    .bottom {
+        border-top: 1px solid $bdColor;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .main-menu {
+                height: 80px;
+                display: flex;
+                justify-content: space-between;
+                align-items: stretch;
+                a {
+                    padding: 0 20px;
+                    color: $blue;
+                    text-decoration: none;
+                    font-weight: 700;
+                    line-height: 80px;
+                    transition: all .4s;
+                    &:hover {
+                        background-color: $blue;
+                        color: $gray;
+                    }
+                }
+            }
+        }
+    }
+}

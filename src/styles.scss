@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+/* variables */
+
+/* colors */
+$white: white;
+$black: black;
+$blue: #196acc;
+$darkBlue: #33444c;
+$gray: #efefef;
+$bdColor: #aebcc3;
+
+/* fonts */
+$raleway: "Raleway", sans-serif;
+
+/* fonts size */
+$normal: 14px;
+
+
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&subset=latin-ext');
+
+
+
+/* global styles */
+body {
+    font-family: $raleway;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.btn {
+    display: inline-block;
+    margin: 12px 0px;
+    padding: 10px 25px;
+    background: transparent;
+    border-radius: 29px;
+    border: 1px solid $bdColor;
+    font: 600 14px/1em $raleway;
+    color: $darkBlue;
+    text-transform: uppercase;
+    text-align: left;
+    cursor: pointer;
+    transition: all .6s;
+    &:hover {
+        background-color: $blue;
+        color: $white;
+    }
+    &.btn-blue {
+        background-color: $blue;
+        color: $white;
+        &:hover {
+            background-color: $white;
+            color: $darkBlue;
+        }
+    }
+}
