@@ -1,8 +1,8 @@
 @import '../../styles.scss';
 
-.latest-auction {
-    margin-top: 20px;
+.recommended-auction {
     margin-bottom: 40px;
+    margin-top: 40px;
     .boxhead {
         border-bottom: 1px solid $bdColor;
         h3 {
@@ -21,7 +21,7 @@
             width: 25%;
         }
     }
-    .bottom-latest-auction {
+    .bottom-recommended-auction {
         text-align: right;
     }
 }

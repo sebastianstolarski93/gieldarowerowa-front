@@ -10,7 +10,8 @@ import { OwlModule } from 'ngx-owl-carousel';
 import { LatestAuctionComponent } from './latest-auction/latest-auction.component';
 import { FrontPageComponent } from './front-page/front-page.component';
 import { AppRoutingModule } from './/app-routing.module';
-import { ProductItemComponent } from './product-item/product-item.component' ;
+import { ProductItemComponent } from './product-item/product-item.component';
+import { RecommendedAuctionComponent } from './recommended-auction/recommended-auction.component' ;
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProductItemComponent } from './product-item/product-item.component' ;
     BanerComponent,
     LatestAuctionComponent,
     FrontPageComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    RecommendedAuctionComponent
   ],
   imports: [
     BrowserModule,

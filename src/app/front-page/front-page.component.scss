@@ -1,0 +1,20 @@
+@import '../../styles.scss';
+
+.sepearator-bar {
+    background-color: $darkBlue;
+    color: $white;
+    .container {
+        padding: 20px 0;
+        text-align: center;
+        h2 {
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 700;
+        }
+        h3 {
+            font-size: 32px;
+            line-height: 50px;
+            font-weight: 700;
+        }
+    }
+}
